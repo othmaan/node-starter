@@ -6,7 +6,7 @@ var PORT = 8080;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  res.send('I am a NodeJS test server running in a Linux container.\n -aothman-\n');
+  res.send('I am a NodeJS test server running in a Linux container.\n -aoth\n');
 });
 
 app.listen(PORT);
